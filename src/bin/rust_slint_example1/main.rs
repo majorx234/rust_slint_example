@@ -3,7 +3,7 @@ fn main() {
 }
 
 slint::slint! {
-    MainWindow := Window {
+    export component MainWindow inherits Window {
         Text {
             text: "rust slint example 1";
             color: red;
