@@ -12,6 +12,9 @@ path = "src/lib.rs"
 name = "rust_slint_example1"
 path = "src/bin/rust_slint_example1/main.rs"
 
+[[bin]]
+name = "rust_slint_example2"
+path = "src/bin/rust_slint_example2/main.rs"
 
 [dependencies]
 slint = "1.9.1"
