@@ -1,0 +1,17 @@
+[package]
+name = "rust_slint_example"
+version = "0.1.0"
+authors = ["MajorX234 <majorx234@googlemail.com>"]
+edition = "2021"
+
+[lib]
+name = "rust_slint_example_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rust_slint_example1"
+path = "src/bin/rust_slint_example1/main.rs"
+
+
+[dependencies]
+slint = "1.9.1"
